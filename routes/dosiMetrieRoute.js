@@ -1,5 +1,6 @@
-// const express = require("express");
-const routedose =express.Router();
+const express = require('express');
+
+const routedose = express.Router();
 const doseController= require("../controllers/dosiMetrieController");
 
 
@@ -9,4 +10,4 @@ routedose.delete("/deletedose/:id",doseController.Deletedose);
 routedose.get("/getdoseById/:id",doseController.GetdoseByID);
 routedose.put("/updatedose/:id",doseController.Updatedose);
 
-module.exports = routedose
+exports default routedose;
