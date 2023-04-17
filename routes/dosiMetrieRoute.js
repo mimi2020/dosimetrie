@@ -10,4 +10,4 @@ routedose.delete("/deletedose/:id",doseController.Deletedose);
 routedose.get("/getdoseById/:id",doseController.GetdoseByID);
 routedose.put("/updatedose/:id",doseController.Updatedose);
 
-exports default routedose;
+export default routedose;

@@ -8,4 +8,4 @@ UserRoute.get("/afficheUserById/:id",userControlers.GetUserById)
 UserRoute.put("/put/:id",userControlers.UpdateUser)
 UserRoute.delete("/delete/:id",userControlers.deletefunction)
 
-module.exports= UserRoute
+module.exports = UserRoute

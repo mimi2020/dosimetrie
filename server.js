@@ -5,7 +5,7 @@ const app =express()
 const {error,success } =require('consola');
 const DB=require("./config/database")
 
-const RouteDose=require("./routes/dosimetrieRouters")
+const RouteDose=require("./routes/dosiMetrieRoute")
 const RouteUser=require("./routes/userRouters")
 var bodyParser = require('body-parser');
 
