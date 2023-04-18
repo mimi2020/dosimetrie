@@ -1,4 +1,4 @@
-const { default: mongoose } = require("mongoose");
+var { default: mongoose } = require("mongoose");
 const UserSchema = new mongoose.Schema({
     name:{
         type:String,
@@ -21,7 +21,7 @@ const UserSchema = new mongoose.Schema({
     role:{
         default:"user", type :String},
 
-    dose: [{ type: Schema.Types.ObjectId, ref: "dose" }]
+    // dose: [{ type: Schema.Types.ObjectId, ref: "dose" }]
 
 },
 { timestamps: true }

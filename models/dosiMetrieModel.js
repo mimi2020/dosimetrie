@@ -1,4 +1,4 @@
-const { default: mongoose } = require("mongoose");
+var { default: mongoose } = require("mongoose");
 
 const doseSchema = new mongoose.Schema({
 
@@ -10,7 +10,9 @@ const doseSchema = new mongoose.Schema({
         type:String,
        
     },
- 
+ seuil:{
+    type:String,default:"20"
+ }
  
     // user:{
     //     //unique:true,

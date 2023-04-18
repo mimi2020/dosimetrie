@@ -6,7 +6,7 @@ const {error,success } =require('consola');
 const DB=require("./config/database")
 
 const RouteDose=require("./routes/dosiMetrieRoute")
-const RouteUser=require("./routes/userRouters")
+const RouteUser=require("./routes/userRoute")
 var bodyParser = require('body-parser');
 
 //partie configuration 
