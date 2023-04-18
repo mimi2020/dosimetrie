@@ -2,7 +2,7 @@
 const port =3000;
 var express =require("express")
 const app =express()
-const {error,success } =require('consola');
+var {error,success } =require('consola');
 const DB=require("./config/database")
 
 const RouteDose=require("./routes/dosiMetrieRoute")
